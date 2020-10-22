@@ -1,5 +1,3 @@
-__author__ = 'john'
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -15,7 +13,7 @@ price_without_symbol = string_price[1:]
 
 price_float = float(price_without_symbol)
 
-if price_float <30:
+if price_float < 30:
     print("Buy the chair already")
 else:
     print("Too expensive")
